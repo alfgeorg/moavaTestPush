@@ -2,7 +2,7 @@
 <widget id="no.moava.minmoava" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Min Moava</name>
     <description>
-        Bare en test av push varsling
+        Bare en test av push notifications
     </description>
     <author email="post@pmoava.no" href="http://moava.no">
         Moava
