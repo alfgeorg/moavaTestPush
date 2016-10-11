@@ -39,6 +39,7 @@ var app = {
     },
     setupPush: function() {
         console.log('calling push init');
+        alert("setup PUSH");
         var push = PushNotification.init({
             "android": {
                 "senderID": "742481540214"
@@ -51,9 +52,11 @@ var app = {
             },
             "windows": {}
         });
+        alert(push);
         console.log('after init');
 
         push.on('registration', function(data) {
+            alert(data);
             console.log('registration event: ' + data.registrationId);
 
             var oldRegId = localStorage.getItem('registrationId');
